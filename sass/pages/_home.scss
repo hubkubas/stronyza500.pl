@@ -1,0 +1,143 @@
+
+
+section {
+  padding: 8rem 0;
+}
+
+.section-responsive{
+    background: white;
+}
+
+.section-features{
+  background: white;
+  position: relative;
+
+}
+
+.section-features .row:nth-child(2){
+
+  margin-bottom: 10rem;
+
+}
+
+.section-features .long-copy {
+  margin-bottom: 3rem;
+}
+
+
+
+.long-copy {
+    text-align: center;
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box {
+  padding: 1%;
+}
+
+
+
+.section-profesjonalnie {
+  background: linear-gradient(223deg, rgba(82,255,108,1) 0%, rgba(255,99,245,1) 100%);
+}
+
+.title-text-box {
+  text-align: center;
+}
+
+.profesjonalnie-text-box{
+  text-align: center;
+}
+
+.profesjonalnie-text-box h2{
+    font-size: 12rem;
+    color: white;
+
+    @include max-375{
+        font-size: 2.5rem;
+    }
+
+    @include max-600{
+        font-size: 3rem;
+    }
+
+    @include min-601-max-768 {
+        font-size: 5rem;
+    }
+
+    @include min-769-max-990 {
+        font-size: 7rem;
+    }
+
+    @include min-991-max-1200  {
+        font-size: 9rem;
+    }
+
+}
+
+.profesjonalnie-text-box p{
+  font-size: 1.7rem;
+  color: white;
+  margin-top: 3rem;
+}
+
+.section-portfolio {
+text-align: center;
+background: white;
+   }
+
+.image-box {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  -webkit-box-shadow: 0 2px 6px 0 hsla(0,0%,0%,0.2);
+          box-shadow: 0 2px 6px 0 hsla(0,0%,0%,0.2);
+}
+
+
+img {
+  opacity: 0.9;
+  width: 25rem;
+  height: 45rem;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+}
+
+
+img.app-screen, img.app-screen:hover {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+}
+
+.app-screen {
+  width: 43%;
+}
+
+.works-step {
+  margin:0 2rem 4rem 0;
+}

@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
+
+:root {
+    --color-hero-text-main: #563D5B;
+    --color-hero-text-p: #A38FA7;
+    --color-box-p:#696969;
+    --color-black:black;
+    --color-h2:black;
+    --color-h3:#C0C0C0;
+    --color-mini-footer: #D0D0D0;
+    --color-footer:#191919;
+
+    --color-background:
+    repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
+    rgba(255, 153, 0, 0.5) 8rem, rgba(255, 255, 0, 0.5) 12rem,
+    rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+    rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 28rem,
+    rgba(255, 0, 0, 0.5) 300px),
+    repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 3rem,
+    rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
+    rgba(0, 255, 0, 0.5) 12rem, rgba(0, 0, 255, 0.5) 150px,
+    rgba(75, 0, 130, 0.5) 18rem, rgba(238, 130, 238, 0.5) 21rem,
+    rgba(255, 0, 0, 0.5) 23rem),
+    repeating-linear-gradient(23deg, red 50px, orange 10rem, yellow 150px, green 200px, blue 250px,indigo 300px, violet 350px, red 370px);
+
+--color-button: linear-gradient(223deg, rgba(82,255,108,1) 0%, rgba(255,99,245,1) 100%);
+
+}

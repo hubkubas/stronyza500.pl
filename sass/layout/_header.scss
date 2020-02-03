@@ -1,0 +1,186 @@
+
+.header {
+    width: 100%;
+    height: 100vh; /* Safari */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header div {  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    -webkit-box-flex: 1;
+            flex: 1;
+}
+
+
+.right {
+    background: var(--color-background);
+}
+
+@include max-768 {
+    .right{
+        display: none;
+    }
+}
+
+
+
+.left {
+background: white;
+position: relative;
+
+
+}
+
+.logo {
+    margin: 4rem;
+    width: 8rem;
+    height: auto;
+    position: absolute;
+
+    @include max-375 {
+  margin: 2rem 1rem;
+    }
+
+    @include max-412 {
+  margin: 2rem 1rem;
+    }
+}
+
+
+
+
+.hero-text-box {
+  text-align: left;
+  position: absolute;
+  margin: 8rem 5rem;
+
+  @include max-375 {
+margin: 8rem 0;
+  }
+
+  @include max-412 {
+margin: 7rem 0;
+  }
+
+//   @include max-736 {
+// margin: 1rem;
+// position: relative;
+// z-index: 10000;
+//   }
+
+  @include max-992 {
+
+  }
+
+  @include max-1200 {
+
+  }
+
+}
+
+.hero-text-main {
+    letter-spacing: 0.2rem;
+    font-size: 5rem;
+    color: var(--color-hero-text-main);
+    font-weight: 900;
+    text-shadow:
+    -0.1rem 0 var(--color-hero-text-main),
+    0 0.1rem var(--color-hero-text-main),
+    0.1rem 0 var(--color-hero-text-main),
+    0 -0.1rem var(--color-hero-text-main),
+    -0.1rem -0.1rem var(--color-hero-text-main),
+    0.1rem 0.1rem var(--color-hero-text-main),
+    -0.1rem 0.1rem var(--color-hero-text-main),
+    0.1rem -0.1rem var(--color-hero-text-main);
+
+    @include max-375 {
+    font-size: 2.5rem;
+    }
+
+    @include max-412 {
+    font-size: 3rem;
+    }
+
+    @include max-600 {
+    font-size: 3rem;
+    }
+
+
+    // @include max-736 {
+    // font-size: 3rem;
+    // margin-top: 8rem;
+    // }
+
+
+    @include max-992 {
+    font-size: 3.5rem;
+    }
+
+    @include max-1200 {
+    font-size: 4rem;
+    }
+
+}
+
+.hero-text-p {
+    font-size: 2rem;
+    color: var(--color-hero-text-p);
+    margin: 3rem 0;
+    line-height: 1.4;
+    font-weight: 700;
+
+    @include max-375 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    @include max-412 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    //
+    // @include max-600 {
+    //     font-size: 1.5rem;
+    // }
+    //
+    // @include max-992 {
+    //     font-size: 1.8rem;
+    // }
+}
+
+
+.mini-footer{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    background: var(--color-mini-footer);
+    padding: 5%;
+
+    // @include max-736 {
+    // display: none;
+    // // position: absolute;
+    // }
+}
+
+.mini-footer a {
+text-decoration: none;
+}
+
+.mini-footer p {
+    color:white;
+    font-weight: 700;
+}
+
+@include max-375 {
+    .tel-mini-footer{
+        display: none;
+    }
+}
+
+@include max-412 {
+    .tel-mini-footer{
+        display: none;
+    }
+}
