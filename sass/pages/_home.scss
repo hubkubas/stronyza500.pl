@@ -9,7 +9,6 @@ section {
 }
 
 .section-features{
-  background: white;
   position: relative;
 
 }
@@ -40,7 +39,8 @@ section {
 
 
 .section-profesjonalnie {
-  background: linear-gradient(223deg, rgba(82,255,108,1) 0%, rgba(255,99,245,1) 100%);
+  background: $color-profesjonalnie-background;
+  
 }
 
 .title-text-box {
@@ -55,24 +55,20 @@ section {
     font-size: 12rem;
     color: white;
 
-    @include max-375{
-        font-size: 2.5rem;
+    @include respond(phone) {
+
+      // font-size: 6rem;
+    }
+  
+
+    @include respond(tab-land) {
+
+      font-size: 7rem;
     }
 
-    @include max-600{
-        font-size: 3rem;
-    }
-
-    @include min-601-max-768 {
-        font-size: 5rem;
-    }
-
-    @include min-769-max-990 {
-        font-size: 7rem;
-    }
-
-    @include min-991-max-1200  {
-        font-size: 9rem;
+    @include respond(tab-port) {
+      //   font-size: 50%; /* 1 rem = 8px, 8px/16px * 100 = 50% */
+      font-size: 4rem;
     }
 
 }
@@ -100,8 +96,8 @@ background: white;
 
 img {
   opacity: 0.9;
-  width: 25rem;
-  height: 45rem;
+  // width: 25rem;
+  // height: 45rem;
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -116,16 +112,16 @@ img:hover {
           transform: scale(1.03);
 }
 
-.steps-box:first-child {
-  text-align: right;
-  padding-right: 3%;
-  margin-top: 30px;
+.steps-box {
+  // text-align: right;
+  // padding-right: 3%;
+  // margin-top: 30px;
 }
 
-.steps-box:last-child {
-  padding-left: 3%;
-  margin-top: 70px;
-}
+// .steps-box:last-child {
+//   padding-left: 3%;
+//   margin-top: 70px;
+// }
 
 
 img.app-screen, img.app-screen:hover {
@@ -135,7 +131,7 @@ img.app-screen, img.app-screen:hover {
 }
 
 .app-screen {
-  width: 43%;
+  width: 90%;
 }
 
 .works-step {
