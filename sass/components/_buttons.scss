@@ -6,7 +6,7 @@
     border-radius: 10rem;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    font-size: 2rem;
+    // font-size: 2rem;
     background: $color-button;
     color: white;
     font-weight: 700;
@@ -38,4 +38,13 @@
     transition: all 0.4s; }
   
   .btn-header {
-    position: absolute; }
+    position: absolute;
+  font-size: 2rem; }
+
+  .btn-price {
+    font-size: 1rem;
+  }
+
+  // .btn-full {
+  //   font-size: 2rem;
+  // }
