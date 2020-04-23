@@ -34,8 +34,11 @@ margin-top: 3rem;
 */
 
 @mixin respond($breakpoint) {
-@if $breakpoint == phone {
+@if $breakpoint == iphone {
   @media only screen and (max-width: 37.5em)  { @content };  //600
+}
+@if $breakpoint == iphone-land {
+  @media only screen and (max-width: 45.8em)  { @content };  //734
 }
 @if $breakpoint == tab-port {
   @media only screen and (max-width: 56.25em)  { @content };  //900

@@ -57,13 +57,12 @@ h2 {
   margin-bottom: 3rem;
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 3rem;
   letter-spacing: 0.1rem;
   color: black; }
 
 h3 {
   font-size: 1.7rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
   color: silver; }
 
 h2:after:not(:last-child) {
@@ -86,7 +85,8 @@ p {
 
 .icon-big {
   font-size: 5rem;
-  color: black; }
+  color: #ffc400;
+  margin-bottom: 3rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -267,7 +267,7 @@ p {
 .mini-footer {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 0px;
   background: #D0D0D0;
   padding: 5%; }
 
@@ -277,6 +277,9 @@ p {
 .mini-footer p {
   color: white;
   font-weight: 700; }
+
+#particles-js {
+  overflow: hidden; }
 
 .footer {
   background: #191919; }
@@ -314,6 +317,9 @@ section {
       padding: 4rem; } }
 
 .section-responsive {
+  background: white; }
+
+.section-dlaczegomy {
   background: white; }
 
 .section-features {
@@ -363,14 +369,21 @@ section {
   background: white; }
 
 .image-box {
+  display: inline-block;
+  position: relative;
   margin: 0;
   overflow: hidden;
   background-color: #000;
   -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); }
 
+.image-box-par {
+  padding: 10rem 1rem;
+  position: absolute;
+  color: white; }
+
 img {
-  opacity: 0.8;
+  opacity: 1;
   width: 25rem;
   height: 45rem;
   -webkit-transform: scale(1.08);
@@ -381,7 +394,7 @@ img {
   transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s; }
 
 img:hover {
-  opacity: 1;
+  opacity: 0.6;
   -webkit-transform: scale(1.03);
   transform: scale(1.03); }
 

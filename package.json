@@ -33,5 +33,7 @@
     "postcss-cli": "^7.1.0",
     "waypoints": "^4.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
 }

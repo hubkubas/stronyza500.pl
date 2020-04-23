@@ -78,6 +78,7 @@
     -0.1rem -0.1rem $color-hero-text-main, 0.1rem 0.1rem $color-hero-text-main,
     -0.1rem 0.1rem $color-hero-text-main, 0.1rem -0.1rem $color-hero-text-main;
 
+
     @include respond(tab-land) {
       font-size: 3.5rem;
     }
@@ -97,9 +98,13 @@
 .mini-footer {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 0px;
   background: $color-mini-footer;
   padding: 5%;
+
+  @include respond(phone) {
+  display: none;
+  }
 }
 
 .mini-footer a {
@@ -109,4 +114,9 @@
 .mini-footer p {
   color: white;
   font-weight: 700;
+}
+
+
+#particles-js{
+overflow: hidden;
 }
