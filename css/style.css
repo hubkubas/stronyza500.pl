@@ -17,4 +17,40 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 80vh min-content; }
+  grid-template-rows: 80vh repeat(6, min-content);
+  grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
+  .container > * {
+    padding: 40px;
+    font-size: 3rem; }
+
+.header {
+  background-color: green;
+  grid-column: full-start / full-end; }
+
+.dlaczegomy {
+  background-color: blue;
+  grid-column: full-start / full-end; }
+
+.wybierznas {
+  background-color: orange;
+  grid-column: full-start / full-end; }
+
+.responsywne {
+  background-color: red;
+  grid-column: full-start / full-end; }
+
+.profesjonalne {
+  background-color: yellow;
+  grid-column: full-start / full-end; }
+
+.banerprofesjonalnie {
+  background-color: grey;
+  grid-column: full-start / full-end; }
+
+.cennik {
+  background-color: blueviolet;
+  grid-column: full-start / full-end; }
+
+.portfolio {
+  background-color: #ff00d4;
+  grid-column: full-start / full-end; }
