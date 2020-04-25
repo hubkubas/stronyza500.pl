@@ -24,8 +24,9 @@ body {
     font-size: 3rem; }
 
 .header {
-  background-color: green;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
 .dlaczegomy {
   background-color: blue;
@@ -53,4 +54,8 @@ body {
 
 .portfolio {
   background-color: #ff00d4;
+  grid-column: full-start / full-end; }
+
+.footer {
+  background-color: #2be28d;
   grid-column: full-start / full-end; }
