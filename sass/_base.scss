@@ -10,6 +10,8 @@ $color-grey-light-2: #aaa;
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
+$color-icon: rgb(255, 132, 0);
+
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
@@ -40,7 +42,6 @@ body {
     grid-template-columns: [full-start] 1fr [center-start] repeat(8,[col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
 
     & > * {
-        padding: 40px;
-        font-size: 3rem;
+        padding: 4rem;
     }
 }

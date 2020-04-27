@@ -20,8 +20,31 @@ body {
   grid-template-rows: 80vh repeat(6, min-content);
   grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
   .container > * {
-    padding: 40px;
-    font-size: 3rem; }
+    padding: 4rem; }
+
+.heading-1, .heading-2, .heading-3, .heading-4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400; }
+
+.heading-1 {
+  font-size: 1.9rem; }
+  .heading-1--light {
+    color: #aaa; }
+
+.heading-2 {
+  font-size: 3.6rem; }
+  .heading-2--light {
+    color: #aaa; }
+
+.heading-3 {
+  font-size: 2.8rem; }
+  .heading-3--light {
+    color: #aaa; }
+
+.heading-4 {
+  font-size: 1.9rem; }
+  .heading-4--light {
+    color: #aaa; }
 
 .header {
   grid-column: full-start / full-end;
@@ -29,20 +52,65 @@ body {
   grid-template-columns: 1fr 1fr; }
 
 .dlaczegomy {
-  background-color: blue;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+  background-color: yellow;
+  text-align: center; }
+
+.dlaczego {
+  background-color: red;
+  grid-column: 3 / span 2; }
 
 .wybierznas {
-  background-color: orange;
-  grid-column: full-start / full-end; }
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 6rem;
+  align-items: start; }
+
+.powod {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem; }
+  .powod__icon {
+    font-size: 5rem;
+    grid-row: 1 / span 2;
+    transform: translatey(-2.7rem);
+    color: #ff8400; }
+  .powod__text {
+    font-size: 1.7rem;
+    color: black; }
 
 .responsywne {
   background-color: red;
   grid-column: full-start / full-end; }
 
 .profesjonalne {
-  background-color: yellow;
-  grid-column: full-start / full-end; }
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 6rem;
+  align-items: start; }
+  .profesjonalne .profheader {
+    display: grid;
+    text-align: center;
+    grid-column: 1 / 4; }
+  .profesjonalne .profpowod {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2.5rem;
+    grid-row-start: 2; }
+    .profesjonalne .profpowod__icon {
+      font-size: 5rem;
+      grid-row: 1 / span 2;
+      transform: translatey(-2.7rem);
+      color: #ff8400; }
+    .profesjonalne .profpowod__text {
+      font-size: 1.7rem;
+      color: black; }
 
 .banerprofesjonalnie {
   background-color: grey;
@@ -57,5 +125,14 @@ body {
   grid-column: full-start / full-end; }
 
 .footer {
-  background-color: #2be28d;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  color: #aaa;
+  font-size: 1.4rem;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
+
+.copyright {
+  color: #aaa;
+  font-size: 1.4rem;
+  margin-top: 6rem;
+  text-align: center; }
