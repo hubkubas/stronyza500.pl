@@ -1,4 +1,44 @@
 .cennik {
-    background-color: blueviolet;
-    grid-column: full-start / full-end;
+  grid-column: center-start / center-end;
+
+  display: grid;
+  //   grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(1fr));
+  grid-gap: 4rem;
+
+
+  padding: 10rem 0;
+
+  .plan-box {
+    border: 2px solid rgb(98, 109, 255);
+
+    transition: 0.2s;
+    border-radius: 10px 10px 5rem;
+    padding: 2rem;
+    display: grid;
+    grid-row-start: 2;
+
+    ul > li {
+      font-size: 1.5rem;
+    }
+
+    .plan-price {
+        
+      font-size: 2rem;
+      color: rgb(255, 110, 243);
+    }
+  }
+
+  .plan-box:hover{
+    border: 2px solid rgb(0, 11, 158);
+    box-shadow: 0 8px 6px -6px black;
+
+  }
+
 }
+
+.cennik-text-box{
+    text-align: center;
+    grid-column: 1 / 5;
+      }

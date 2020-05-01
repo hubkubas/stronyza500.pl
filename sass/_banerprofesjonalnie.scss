@@ -1,4 +1,17 @@
 .banerprofesjonalnie {
-    background-color: grey;
-    grid-column: full-start / full-end;
+        padding: 3rem;
+        grid-column: full-start / full-end;
+
+        text-align: center;
+      
+        background-color: rgb(252, 249, 249);
+      .heading-baner{
+          font-size: 10rem;
+          color: rgb(0, 0, 0);
+      }
+
+      .text-baner{
+        font-size: 5rem;
+        color: rgb(0, 0, 0);
+    }
 }

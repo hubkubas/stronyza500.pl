@@ -1,14 +1,16 @@
 .dlaczegomy {
+  padding: 10rem;
   grid-column: full-start / full-end;
-  display: grid;
-  //   grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
-  background-color: yellow;
+  // padding: 6rem 10vw;
   text-align: center;
+
+  background-color: rgb(252, 249, 249);
+
+  &__text {
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+  }
+
 }
 
-.dlaczego {
-background-color: red;
-grid-column: 3 / span 2;
   //   grid-template-columns: repeat(3, 1fr);
-}
