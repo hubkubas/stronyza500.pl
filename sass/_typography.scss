@@ -19,41 +19,28 @@
 .heading-2 {
     @extend %heading;
     font-size: 3.6rem;
-
-    &--light {
-    color: $color-grey-light-2;
-    }
-
-    &--dark {
-        
-    }
+    color: $color-black;
 }
 
 .heading-3 {
     @extend %heading;
     font-size: 2.8rem;
+    color: $color-heading-2;
 
-    &--light {
-    color: $color-grey-light-2;
-    }
 
-    &--dark {
-        
-    }
 }
 
 .heading-4 {
     @extend %heading;
     font-size: 1.9rem;
-
-    &--light {
-    color: $color-grey-light-2;
-    }
-
-    &--dark {
-        
-    }
+    margin-bottom: 2rem;
+    color: $color-black;
 }
+
+.icon {
+    width: 10rem;
+    margin-bottom: 3.5rem;
+  }
 
 .mb-sm { margin-bottom: 2rem;}
 .mb-md { margin-bottom: 3rem;}

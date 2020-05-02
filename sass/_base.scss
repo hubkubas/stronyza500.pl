@@ -10,7 +10,13 @@ $color-grey-light-2: #aaa;
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
-$color-icon: rgb(255, 132, 0);
+$color-heading-2: rgb(0, 11, 158);
+
+$color-black: rgb(0, 0, 0);
+
+$color-icon: rgb(53, 113, 239);
+
+$color-paragraf: rgb(100, 100, 100);
 
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
@@ -31,7 +37,7 @@ html {
 
 body {
     font-family: $font-primary;
-    color: $color-grey-dark-2;
+    color: $color-paragraf;
     font-weight: 300;
     line-height: 1.6;
 }

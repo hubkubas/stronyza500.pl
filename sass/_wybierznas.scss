@@ -2,32 +2,23 @@
   grid-column: center-start / center-end;
 
   display: grid;
-//   grid-template-columns: repeat(3, 1fr);
+  //   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 6rem;
-  align-items: start;
-
+  // align-items: start;
   padding: 10rem 0;
 
-}
+  text-align: center;
 
-.powod {
+  .profheader {
+    display: grid;
+    text-align: center;
+    grid-column: 1 / 4;
+  }
 
-display: grid;
-grid-template-columns: min-content 1fr;
-grid-row-gap: 1.5rem;
-grid-column-gap: 2.5rem;
-
-    &__icon{
-        font-size: 5rem;
-        grid-row: 1 / span 2;
-        transform: translatey(-2.7rem);
-        color: $color-icon;
-
+  .wybierzpowod {
+    &__text {
+      font-size: 1.7rem;
     }
-
-    &__text{
-        font-size: 1.7rem;
-        color: rgb(0, 0, 0);
-    }
+  }
 }
