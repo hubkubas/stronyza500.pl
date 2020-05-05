@@ -1,48 +1,54 @@
 %heading {
-    font-family: $font-display;
-    font-weight: 400;
+  font-family: $font-display;
+  font-weight: 400;
 }
 
 .heading-1 {
-    @extend %heading;
-    font-size: 1.9rem;
-
-    &--light {
-    color: $color-grey-light-2;
-    }
-
-    &--dark {
-        
-    }
+  @extend %heading;
+  font-size: 4.5rem;
 }
 
 .heading-2 {
-    @extend %heading;
-    font-size: 3.6rem;
-    color: $color-black;
+  @extend %heading;
+  font-size: 3.6rem;
+  color: $color-black;
 }
 
 .heading-3 {
-    @extend %heading;
-    font-size: 2.8rem;
-    color: $color-heading-2;
-
-
+  @extend %heading;
+  font-size: 2.8rem;
+  color: $color-heading-2;
 }
 
 .heading-4 {
-    @extend %heading;
-    font-size: 1.9rem;
-    margin-bottom: 2rem;
-    color: $color-black;
+  @extend %heading;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  color: $color-black;
+}
+
+.text {
+  font-size: 1.7rem;
+}
+
+#blue {
+    color: $color-heading-2;
 }
 
 .icon {
-    width: 10rem;
-    margin-bottom: 3.5rem;
-  }
+  width: 10rem;
+  margin-bottom: 3.5rem;
+}
 
-.mb-sm { margin-bottom: 2rem;}
-.mb-md { margin-bottom: 3rem;}
-.mb-lg { margin-bottom: 4rem;}
-.mb-hg { margin-bottom: 8rem;}
+.mb-sm {
+  margin-bottom: 2rem;
+}
+.mb-md {
+  margin-bottom: 3rem;
+}
+.mb-lg {
+  margin-bottom: 4rem;
+}
+.mb-hg {
+  margin-bottom: 8rem;
+}

@@ -25,9 +25,7 @@ body {
   font-weight: 400; }
 
 .heading-1 {
-  font-size: 1.9rem; }
-  .heading-1--light {
-    color: #aaa; }
+  font-size: 4.5rem; }
 
 .heading-2 {
   font-size: 3.6rem;
@@ -35,12 +33,18 @@ body {
 
 .heading-3 {
   font-size: 2.8rem;
-  color: #000b9e; }
+  color: #5164ff; }
 
 .heading-4 {
   font-size: 1.9rem;
   margin-bottom: 2rem;
   color: black; }
+
+.text {
+  font-size: 1.7rem; }
+
+#blue {
+  color: #5164ff; }
 
 .icon {
   width: 10rem;
@@ -61,16 +65,23 @@ body {
 .header {
   grid-column: full-start / full-end;
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr); }
+  .header__image {
+    grid-row: 4 / 5;
+    grid-column: 5 / 8; }
+    .header__image img {
+      width: 100%; }
+  .header__text-box {
+    grid-row: 4 / 5;
+    grid-column: 2 / 5;
+    padding: 0 5rem; }
 
 .dlaczegomy {
   padding: 10rem;
   grid-column: full-start / full-end;
   text-align: center;
   background-color: #fcf9f9; }
-  .dlaczegomy__text {
-    font-size: 1.7rem;
-    color: black; }
 
 .wybierznas {
   grid-column: center-start / center-end;
@@ -83,8 +94,6 @@ body {
     display: grid;
     text-align: center;
     grid-column: 1 / 4; }
-  .wybierznas .wybierzpowod__text {
-    font-size: 1.7rem; }
 
 .responsywne__lewa {
   grid-column: full-start / col-end 4;
@@ -120,8 +129,6 @@ body {
     display: grid;
     text-align: center;
     grid-column: 1 / 4; }
-  .profesjonalne .profpowod__text {
-    font-size: 1.7rem; }
 
 .banerprofesjonalnie {
   padding: 3rem;
