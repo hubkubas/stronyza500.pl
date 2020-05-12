@@ -1,0 +1,25 @@
+.portfolio {
+    grid-column: center-start / center-end;
+
+    display: grid;
+  //   grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 1rem;
+    // align-items: start;
+    padding: 10rem 0;
+
+    text-align: center;
+
+    .image-box {
+
+
+        img {
+            width: 25rem;
+        }
+    }
+
+    .portfolio-text-box{
+        text-align: center;
+        grid-column: 1 / 5;
+          }
+}

@@ -1,0 +1,13 @@
+.footer {
+
+    grid-column: full-start / full-end;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.copyright {
+    color: $color-grey-light-2;
+    font-size: 1.4rem;
+    margin-top: 6rem;
+    text-align: center;
+}
