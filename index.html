@@ -40,8 +40,15 @@
 
     <header class="header">
 
-
-        <!-- <img src="img/stronyza500_logo.png" alt="logo firmy stronyza500.pl" class="logo"> -->
+        <nav class="navbar">
+            <img class="logo" src="img/stronyza500_logo.png" alt="logo firmy stronyza500.pl">
+            <ul class="main-nav">
+                <li><a href="">Dlaczego my</a></li>
+                <li><a href="">Co robimy</a></li>
+                <li><a href="">Nasze realizacje</a></li>
+                <li><a href="mailto:hubert.kubasiewicz@gmail.com">Kontakt</a></li>
+            </ul>
+        </nav>
 
         <div class="header__text-box">
             <h1 class="heading-1">
@@ -56,26 +63,6 @@
             <a href="mailto:hubert.kubasiewicz@gmail.com" class="btn btn-header">Napisz do nas</a>
         </div>
 
-
-        <!-- <div class="header__right" id="particles-js">
-            <nav>
-                <ul class="main-nav">
-                    <li>
-                        <a href="#dlaczego">Dlaczego my</a>
-                    </li>
-                    <li>
-                        <a href="#wybierz">Co robimy</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Nasze realizacje</a>
-                    </li>
-                    <li>
-                        <a href="#about">O nas</a>
-                    </li>
-                </ul>
-
-            </nav>
-        </div>  -->
         <div class="header__image">
             <img src="img/Working 05.jpg" alt="przykład responsywne strony">
         </div>
@@ -229,7 +216,6 @@
                 <li>Logo</li>
                 <li>Darmowa zmiana treści</li>
             </ul>
-            <a href="mailto:hubert.kubasiewicz@gmail.com" class="btn btn-price">Napisz do nas</a>
         </div>
 
 
@@ -238,14 +224,13 @@
             <p class="plan-price">799 PLN
             </p>
             <ul>
-                <li><b>Open page +</b></li>
+                <li><b>One page +</b></li>
                 <li>Domena www</li>
                 <li>Hosting 15GB</li>
                 <li>Max 10 skrzynek email</li>
                 <li>Certyfikat bezpieczeństwa SSL</li>
                 <li>Opieka techniczna</li>
             </ul>
-            <a href="mailto:hubert.kubasiewicz@gmail.com" class="btn btn-price">Napisz do nas</a>
         </div>
 
 
@@ -254,14 +239,13 @@
             <p class="plan-price">1099 PLN
             </p>
             <ul>
-                <li><b>www/hosting/email +</b></li>
+                <li><b>hosting + email +</b></li>
                 <li>Większa liczba podstron</li>
                 <li>CMS Wordpress</li>
                 <li>SEO pakiet 32 wiztówek</li>
                 <li>Doradztwo marketingowe</li>
                 <li>Statystyki odwiedzin</li>
             </ul>
-            <a href="mailto:hubert.kubasiewicz@gmail.com" class="btn btn-price">Napisz do nas</a>
         </div>
 
 
@@ -277,56 +261,38 @@
                 <li>Projekt wizytówek</li>
                 <li>Gwarancja 24 miesiące</li>
             </ul>
-            <a href="mailto:hubert.kubasiewicz@gmail.com" class="btn btn-price">Napisz do nas</a>
         </div>
     </section>
 
+    
 
     <section class="portfolio" id="portfolio">
-        <div class="row">
-            <div class="title-text-box">
-                <h3>
-                    Przykładowe realizacje
-                </h3>
-                <h2>
-                    Nowoczesne i funkcjonalne strony www!
-                </h2>
-            </div>
+        <div class="portfolio-text-box mb-lg">
+            <h3 class="heading-3 heading-3--light">Portfolio</h3>
+            <h2 class="heading-2">Przykładowe strony www</h2>
         </div>
-        <div class="row">
-            <div class="col-1-of-4 box">
+
                 <div class="image-box">
-                    <p class="image-box-par">1499 PLN - przykładowy koszt strony www wraz z pełną optymalizacją pod SEO,
-                        hostingiem, kampanią google ads.</p>
                     <a href="https://italents.pl" target="_blank"><img src="img/screenshot-italents.png"
                             alt="italents rekrutacja it www"></a>
                 </div>
-            </div>
-            <div class="col-1-of-4 box">
+
                 <div class="image-box">
-                    <p class="image-box-par">500 PLN - przykładowy koszt strony www, klient ma własny serwer.
-                        Wykonaliśmy tylko stronę.</p>
                     <a href="https://doradztwopersonalneit.pl" target="_blank">
                         <img src="img/screenshot-doradztwopersonalneit.png" alt="doradztwopersonalneit.pl www"></a>
                 </div>
-            </div>
-            <div class="col-1-of-4 box">
+
                 <div class="image-box">
-                    <p class="image-box-par">1099 PLN - przykładowy koszt strony www, indywidulany projekt, podpięty CMS
-                        Wordpress.</p>
                     <a href="http://przedszkolenagruszy.pl" target="_blank">
                         <img src="img/screenshot-przedszkolenagrusz.png" alt="przedszkole salezjanek www"></a>
                 </div>
-            </div>
-            <div class="col-1-of-4 box">
+
                 <div class="image-box">
-                    <p class="image-box-par">Wycena indywidulana. Strona posiada kilka funkcjonalności zakodowanych na
-                        specjalne zlecenie Klienta.</p>
                     <a href="http://dsgn.pl" target="_blank">
                         <img src="img/screenshot-dsgn.png" alt="pracownia architektoniczna dsgn www"></a>
                 </div>
-            </div>
-        </div>
+
+                
     </section>
 
 
@@ -335,12 +301,8 @@
         <h2>
             Zapytaj o szczegóły współpracy
         </h2>
-        <a href="mailto:hubert.kubasiewicz@gmail.com" class="btn btn-footer">Napisz do nas</a>
-
-
-        <a href="#" target="_blank" class="Footer-nav-item">Facebook</a>
-
-
+        <a href="mailto:hubert.kubasiewicz@gmail.com" class="btn btn-header">Napisz do nas</a>
+        <p class="text">+48 784 089 308</p>
 
         <p class="copyright">
             <script type="text/javascript">
@@ -349,7 +311,10 @@
             &copy; stronyza500.pl należy do <a href="https://italents.pl">ITalents sp. z o.o. - rekrutacja IT |
                 outsourcing IT</a>
         </p>
-
+        <svg viewBox="0 -20 700 110" width="100%" height="110" preserveAspectRatio="none">
+            <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="rgb(81, 100, 255)" />
+            <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="rgb(53, 113, 239)" />
+          </svg>
     </footer>
 
 

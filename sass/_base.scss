@@ -22,6 +22,8 @@ $color-paragraf: rgb(100, 100, 100);
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
+$color-btn-header: rgb(248,214,0);
+
 *,
 *::before,
 *::after {
@@ -44,7 +46,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 80vh repeat(6, min-content);
+    grid-template-rows: 80vh repeat(8, min-content);
     grid-template-columns: [full-start] 1fr [center-start] repeat(8,[col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
 
     // & > * {

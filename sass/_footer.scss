@@ -1,9 +1,8 @@
 .footer {
+
     grid-column: full-start / full-end;
-    color: $color-grey-light-2;
     font-size: 1.4rem;
     text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .copyright {
